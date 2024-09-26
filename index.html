@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Submission Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CV Submission Portal</h1>
+        <p>Please upload your CV below to apply for exciting new opportunities!</p>
+
+        <!-- CV Form -->
+        <form id="cvForm" enctype="multipart/form-data">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="cvFile">Upload CV:</label>
+            <input type="file" id="cvFile" name="cvFile" accept=".pdf, .docx" required>
+            <button type="submit">Submit CV</button>
+        </form>
+        <div id="message"></div>
+
+        <!-- Steam Game Section -->
+        <h2>Game Information</h2>
+        <p>We will be playing the following game during our session. Check it out below!</p>
+        
+        <!-- Embed Steam Game -->
+        <div class="steam-game">
+            <iframe src="https://store.steampowered.com/widget/2709570/" frameborder="0" width="100%" height="190"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
