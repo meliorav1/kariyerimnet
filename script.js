@@ -41,7 +41,7 @@ function startCountdown(endDate) {
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Geri sayımı göster
-        countdownElement.innerHTML = `${days} Gün ${hours} Saat ${minutes} Dakika ${seconds} Saniye`;
+        countdownElement.innerHTML = `Katılımlarınızı ${days} Gün ${hours} Saat ${minutes} Dakika ${seconds} Saniye sonra bekliyorum`;
 
         // Geri sayım tamamlandığında
         if (distance < 0) {
