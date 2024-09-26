@@ -13,7 +13,7 @@ document.getElementById('cvForm').addEventListener('submit', function(event) {
         }
     }).then(response => {
         if (response.ok) {
-            document.getElementById('message').innerHTML = "CV'niz başarıyla gönderildi!";
+            document.getElementById('message').innerHTML = "Yazık kafana";
         } else {
             response.json().then(data => {
                 if (data.errors) {
