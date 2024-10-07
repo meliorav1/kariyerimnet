@@ -52,5 +52,5 @@ function startCountdown(endDate) {
 }
 
 // Belirli bir bitiş tarihi (örneğin: 1 Ekim 2024 23:59:59)
-const endDate = new Date("2024-10-9T22:59:59").getTime();
+const endDate = new Date("2024-10-09T22:59:59").getTime();
 startCountdown(endDate);
